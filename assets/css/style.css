@@ -10,7 +10,7 @@ html {
 }
 body {
   font-size: 1.6rem;
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 /* =====================common========================= */
 a {
@@ -170,7 +170,8 @@ a {
   min-width: 180px;
   background-color: var(--primary-color);
 }
-.hero .watch-video {
+.hero .cta-group .watch-video {
+  display: flex;
   border: none;
   background: transparent;
   display: flex;
