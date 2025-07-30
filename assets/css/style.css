@@ -346,7 +346,7 @@ a {
 }
 .popular .CoursesItem .thumb {
   width: 100%;
-  height: 278px;
+  height: 75%;
   object-fit: cover;
   border-radius: 12px 12px 0 0;
 }
@@ -563,6 +563,10 @@ background-color: var(--primary-color);
   background-color:  #fffcf4;
 }
 
+.blog .list-blog{
+  width: 25.7%;
+}
+
 .blog .our-blog-top{
 display: flex;
 flex-direction: column;
@@ -583,8 +587,8 @@ height: auto;
 }
 
 .blog .image{
-  width: 370px;
-  height: 250px;
+  width: 100%;
+  height: 67.5%;
   border-radius: 16px 16px 0 0;
 object-fit: cover;
 cursor: pointer;
